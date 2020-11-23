@@ -11,6 +11,6 @@ title_separator          : "-"
 subtitle                 : "Applications"
 name                     : "Your Name"
 description              : "QuatroPe is a non for profit organization devoted to create quality software."
-logo: "https://avatars3.githubusercontent.com/u/53583309?s=400&u=161d7aa2618b0fdbda77945ea4ebbcc7109f3ebb&v=4"
+#logo: "https://avatars3.githubusercontent.com/u/53583309?s=400&u=161d7aa2618b0fdbda77945ea4ebbcc7109f3ebb&v=4"
 
-teaser: "https://oac.unc.edu.ar/files/Bosque-Alegre-2-1.jpg"
+logo: "https://oac.unc.edu.ar/files/Bosque-Alegre-2-1.jpg"
