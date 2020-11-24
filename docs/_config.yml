@@ -12,7 +12,14 @@ favicon: assets/imgs/favicon.ico
 
 
 navbar:
-    - title: Projects
-      link: /projects
-    - title: People
-      link: /projects
+    -   title: Projects
+        link: projects
+
+    -   title: People
+        link: projects
+
+    -   Publications
+        link: pubs
+
+    -   title: Legal
+        link: legal
