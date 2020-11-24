@@ -9,3 +9,8 @@ description: "QuatroPe is a non for profit organization devoted to create qualit
 sitecolor: "#205692"
 logo: assets/imgs/quatrope_logo.png
 favicon: assets/imgs/favicon.ico
+
+
+navbar:
+    - title: Projects
+    - link: /projects
