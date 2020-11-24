@@ -1,7 +1,11 @@
 # https://github.com/pages-themes/cayman
 
 theme: jekyll-theme-cayman
-logo: assets/imgs/quatrope_logo.png
 layout: page
+
 title: "QuatroPe"
 description: "QuatroPe is a non for profit organization devoted to create quality scientific software"
+
+sitecolor: "#205692"
+logo: assets/imgs/quatrope_logo.png
+favicon: assets/imgs/favicon.ico
