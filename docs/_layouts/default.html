@@ -32,9 +32,9 @@
 
       <div id="navbar">
         <ul>
-            <li><a href="{{ site.baseurl }}">Home</a></li>
+            <li><a href="{{ site.baseurl | default: site.url }}">Home</a></li>
             {% for page in site.navbar %}
-            <li><a href="{{ site.baseurl  | append: "/" | append: page.link }}">{{ page.title }}</a></li>
+            <li><a href="{{ site.baseurl | default: site.url }}/{{ append: page.link }}">{{ page.title }}</a></li>
             {% endfor %}
             <li><a target="_new" href="{{ site.github.repository_url }}">GitHub</a>
         </ul>
