@@ -14,6 +14,7 @@
     <meta charset="UTF-8">
 
 {% seo %}
+    <title>{{ page.title | default: site.title </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="{{ site.sitecolor }}">
     <link rel="icon" type="image/vnd.microsoft.icon" href="{{ site.favicon  | append: '?=' | append: site.github.build_revision}}">
