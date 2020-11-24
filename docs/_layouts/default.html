@@ -29,12 +29,12 @@
         <img class="prj-logo" alt="{{ page.title | default: site.title | default: site.github.repository_name }}" src="{{ site.logo }}"></img>
       </h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-{{site.url}}
+
       <div id="navbar">
         <ul>
-            <li><a href="//">Home</a></li>
+            <li><a href="{{ site.baseurl }}">Home</a></li>
             {% for page in site.navbar %}
-            <li><a href="{{ "//" | append: page.link }}">{{ page.title }}</a></li>
+            <li><a href="{{ site.baseurl  | append: "/" | append: page.link }}">{{ page.title }}</a></li>
             {% endfor %}
             <li><a target="_new" href="{{ site.github.repository_url }}">GitHub</a>
         </ul>
