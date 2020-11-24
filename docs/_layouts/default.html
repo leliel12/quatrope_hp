@@ -19,7 +19,7 @@
     <meta name="theme-color" content="{{ site.sitecolor }}">
     <link rel="icon" type="image/vnd.microsoft.icon" href="{{ site.favicon  | append: '?=' | append: site.github.build_revision}}">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision  }}">
   </head>
   <body>
 
@@ -32,9 +32,9 @@
 
       <div id="navbar">
         <ul>
-            <li><a href="{{ site.baseurl | default: site.url }}">Home</a></li>
+            <li><a href="{{ "/" | relative_url }}">Home</a></li>
             {% for page in site.navbar %}
-            <li><a href="{{ site.baseurl | default: site.url }}/{{ append: page.link }}">{{ page.title }}</a></li>
+            <li><a href="{{ page.link | relative_url }}">{{ page.title }}</a></li>
             {% endfor %}
             <li><a target="_new" href="{{ site.github.repository_url }}">GitHub</a>
         </ul>
