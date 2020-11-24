@@ -11,7 +11,6 @@ sitecolor: "#205692"
 logo: assets/imgs/quatrope_logo.png
 favicon: assets/imgs/favicon.ico
 
-#~ baseurl: "https://jbcabral.org/quatrope_hp"
 
 navbar:
     - title: Projects
