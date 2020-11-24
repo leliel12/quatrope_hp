@@ -13,4 +13,4 @@ favicon: assets/imgs/favicon.ico
 
 navbar:
     - title: Projects
-    - link: /projects
+      link: /projects
