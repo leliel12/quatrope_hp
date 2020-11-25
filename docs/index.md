@@ -58,3 +58,7 @@ Also, a companion Python library is developed to access the same dataset as a [P
 [![Documentation Status](https://readthedocs.org/projects/carpyncho-py/badge/?version=latest)](https://carpyncho-py.readthedocs.io/en/latest/?badge=latest)
 [![PyPI](https://img.shields.io/pypi/v/carpyncho)](https://pypi.org/project/carpyncho/)
 [![ascl:2005.007](https://img.shields.io/badge/ascl-2005.007-blue.svg?colorB=262255)](http://ascl.net/2005.007)
+
+---
+
+[More Projects](/projects)
