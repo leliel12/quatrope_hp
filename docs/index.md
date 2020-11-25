@@ -4,13 +4,16 @@
 mentoring people and outreach and mentoring projects.
 
 Many of the QuatroPe tools emerged as independent efforts of
-its members and were integrated into the organization in order to maintain and improve them.
+its members and were integrated into the organization in order to maintain and
+improve them.
 
 ## [Astroalign](https://astroalign.readthedocs.io)
 
-Astroalign is a python module that will try to align two stellar astronomical images, especially when there is no WCS information available.
+Astroalign is a python module that will try to align two stellar astronomical
+images, especially when there is no WCS information available.
 
-It does so by finding similar 3-point asterisms (triangles) in both images and deducing the affine transformation between them.
+It does so by finding similar 3-point asterisms (triangles) in both images and
+deducing the affine transformation between them.
 
 
 [![Build Status](https://travis-ci.com/toros-astro/astroalign.svg?branch=master)](https://travis-ci.com/toros-astro/astroalign)
@@ -26,7 +29,8 @@ It does so by finding similar 3-point asterisms (triangles) in both images and d
 
 ## [Properimage](https://properimage.readthedocs.io)
 
-Properimage is an implementation of the algorithms described in Zackay & Ofek 2017 papers, "How to coadd images" [1](https://iopscience.iop.org/article/10.3847/1538-4357/836/2/187/meta) [2](https://iopscience.iop.org/article/10.3847/1538-4357/836/2/188).
+Properimage is an implementation of the algorithms described in Zackay & Ofek 2017
+papers, "How to coadd images" [1](https://iopscience.iop.org/article/10.3847/1538-4357/836/2/187/meta) [2](https://iopscience.iop.org/article/10.3847/1538-4357/836/2/188).
 
 - It performs PSF estimation using Karhunen-Loeve expansion, which is based on Lauer 2002 work.
 - It performs statistical proper coadd of several images.
@@ -43,7 +47,12 @@ Properimage is an implementation of the algorithms described in Zackay & Ofek 20
 
 ## [Carpyncho](https://carpyncho.github.io/)
 
-Carpyncho, is a catalog browser that we hope will be reutilized to search for and characterize time variable data of the ~PiB size [VVV/VVVx](https://vvvsurvey.org/)survey. Is being developed for the detection and classification of periodic variables. For this purpose the stacked pawprint data from the VDFS CASU v >= 1.3 catalogs have been crossed matched with the VDFS CASU v1.3 tile catalogs into a Parquet files.
+Carpyncho, is a catalog browser that we hope will be reutilized to search for and
+characterize time variable data of the ~PiB size [VVV/VVVx](https://vvvsurvey.org/)
+survey. Is being developed for the detection and classification of periodic
+variables. For this purpose the stacked pawprint data from the VDFS CASU v >= 1.3
+catalogs have been crossed matched with the VDFS CASU v1.3 tile catalogs into a
+Parquet files.
 The Carpyncho infrastructure [https://carpyncho.gihub.io](https://carpyncho.gihub.io) is being developed entirely in Python.
 
 Also, a companion Python library is developed to access the same dataset as a [Pandas DataFrame](https://pandas.pydata.org/).
