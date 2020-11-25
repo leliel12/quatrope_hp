@@ -56,11 +56,7 @@ The Carpyncho infrastructure [https://carpyncho.gihub.io](https://carpyncho.gihu
 
 Also, a companion Python library is developed to access the same dataset as a [Pandas DataFrame](https://pandas.pydata.org/).
 
-[![ascl:2005.007](https://img.shields.io/badge/ascl-2005.007-blue.svg?colorB=262255)](http://ascl.net/2005.007)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3766908.svg)](https://doi.org/10.5281/zenodo.3766908)
-
 [![Build Status](https://travis-ci.org/carpyncho/carpyncho-py.svg?branch=master)](https://travis-ci.org/carpyncho/carpyncho-py)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3779502.svg)](https://doi.org/10.5281/zenodo.3779502)
 [![Python 3](https://img.shields.io/badge/python-3.7+-blue.svg)](https://badge.fury.io/py/carpyncho)
 [![BSD-3](https://img.shields.io/badge/License-BSD3-blue.svg)](https://www.tldrlegal.com/l/bsd3)
 [![Documentation Status](https://readthedocs.org/projects/carpyncho-py/badge/?version=latest)](https://carpyncho-py.readthedocs.io/en/latest/?badge=latest)
